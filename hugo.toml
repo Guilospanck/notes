@@ -43,7 +43,7 @@ tocopen = false
 [params.assets]
 disableHLJS = true
 disableFingerprinting = false
-favicon = "/assets/favicon.svg"
+favicon = "assets/favicon.svg"
 
 [params.homeInfoParams]
 enabled = true
@@ -68,7 +68,7 @@ url = "mailto:guilospanck@protonmail.com"
 
 [[params.socialIcons]]
 name = "pgpkey"
-url = "/assets/publickey.txt"
+url = "assets/publickey.txt"
 
 [[params.socialIcons]]
 name = "other"
