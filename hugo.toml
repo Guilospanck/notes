@@ -1,0 +1,124 @@
+baseURL = "https://guilospanck.github.io/notes/"
+languageCode = "en-us"
+theme = "WonderMod"
+title = "Guilospanck's Notes"
+copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableGitInfo = true
+
+[permalinks]
+posts = "/:filename"
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Guilospanck's Notes"
+description = "Mental dump"
+keywords = ["Rust", "Go", "Stoicism", "Sovereignty", "Bitcoin"]
+author = "Guilherme Pereira"
+DateFormat = "January 2, 2006"
+defaultTheme = "dark" # dark, light
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowFullTextinRSS = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+[params.assets]
+disableHLJS = true
+disableFingerprinting = false
+favicon = "/assets/favicon.svg"
+
+[params.homeInfoParams]
+enabled = true
+title = "Guilospanck's Notes"
+content = "Mental dump"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Guilospanck"
+
+[[params.socialIcons]]
+name = "medium"
+url = "https://medium.com/@guilospanck"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/guilhermerpereira/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:guilospanck@protonmail.com"
+
+[[params.socialIcons]]
+name = "pgpkey"
+url = "/assets/publickey.txt"
+
+[[params.socialIcons]]
+name = "other"
+url = "https://guilospanck.github.io/me/"
+
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+[params.editPost]
+URL = "https://github.com/Guilospanck/notes/blob/main/content"
+Text = "Source code"
+appendFilePath = true
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[outputs]
+home = [
+  "HTML",
+  "RSS",
+  "JSON", # is necessary
+]
+
+[markup.highlight]
+style = "dracula"
+noClasses = false
+guessSyntax = true
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 10
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 20
