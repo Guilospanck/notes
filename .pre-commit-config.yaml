@@ -1,3 +1,4 @@
+#  This is a git hook that can be defined using https://pre-commit.com/
 repos:
   - repo: https://github.com/crate-ci/typos
     rev: v1.16.23
