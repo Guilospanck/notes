@@ -2,8 +2,7 @@
 title = "Using just"
 date = "2024-03-24T11:23:03Z"
 draft = false
-tags = []
-categories = []
+tags = ["rust", "tools"]
 javascript = false
 math = false
 mermaid = false

@@ -1,5 +1,5 @@
 +++
-title = "Blog"
-summary = "Braindump of erratic thoughts and ideas."
-description = "Braindump of erratic thoughts and ideas."
+title = "Notes"
+summary = "This is a braindump of everything I feel inclined to talk about."
+description = "This is a braindump of everything I feel inclined to talk about."
 +++
