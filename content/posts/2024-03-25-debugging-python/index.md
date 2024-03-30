@@ -2,7 +2,7 @@
 title = "Debugging Python tests"
 date = "2024-03-25T05:47:43Z"
 draft = false
-tags = []
+tags = ["python", "debugger", "vscode"]
 categories = []
 javascript = false
 math = false
