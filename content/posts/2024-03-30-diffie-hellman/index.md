@@ -60,6 +60,10 @@ Diffie-Hellman Key Exchange is a powerful method to exchange keys in a secure wa
 
 Humans are so smart.
 
+> Warning: This post has [KaTeX](https://katex.org/) enabled,
+> so if you want to view the rendered math formulas,
+> you'll have to unfortunately enable JavaScript.
+
 ## License
 
 This post is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International][cc-by-nc-sa].
