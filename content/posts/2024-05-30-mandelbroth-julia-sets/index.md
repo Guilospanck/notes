@@ -31,7 +31,7 @@ If you keep looking down and down and down we are all made of the same construct
 
 I love this video. It shows how everything goes from a simple thing up to the whole Universe.
 
-{{< figure src="cosmic_eye.png#center" alt="Universe Size Comparison | Cosmic Eye" title="Universe Size Comparison | Cosmic Eye" width="800" link="<https://www.youtube.com/watch?v=8Are9dDbW24>" target="_blank" >}}
+{{< figure src="cosmic_eye.png#center" alt="Universe Size Comparison | Cosmic Eye" title="Universe Size Comparison | Cosmic Eye" width="800" link="https://www.youtube.com/watch?v=8Are9dDbW24" target="_blank" >}}
 
 Nature teaches us humility.
 Nature shows us how everything works.
