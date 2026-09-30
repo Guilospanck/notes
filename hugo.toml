@@ -1,5 +1,5 @@
 baseURL = "https://guilospanck.github.io/notes/"
-languageCode = "en-us"
+locale = "en-us"
 theme = "WonderMod"
 title = "Guilospanck's Notes"
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
