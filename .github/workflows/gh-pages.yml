@@ -1,9 +1,11 @@
 name: github pages
 
+# Publish by pushing a version tag, e.g. `just tag 1.0.0` (which pushes v1.0.0).
+# Plain pushes to main do nothing here.
 on:
   push:
-    branches:
-      - main
+    tags: ["v*"]
+  workflow_dispatch: {}
 
 permissions:
   contents: read
@@ -28,7 +30,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.135.0"
+          hugo-version: "0.167.0"
 
       - name: Build
         run: hugo --gc --minify
