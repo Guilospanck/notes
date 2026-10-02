@@ -54,7 +54,6 @@ The list kept going on and on. It seemed that it had no end to it and I couldn't
 The more I didn't want to be in pair with this new technology, I was afraid of being left behind so I would from time to time use it a bit for some random things, or do a feature by hand and then see how AI would implement it, but still I was super against it (_as you can see in [this comment](https://github.com/Guilospanck/pqc/pull/8) from one AI generated PR for a feature in one of my repos_). Even though I could see the use of it - and how many times it could be better than me - I would still despise it. It was a mix of being afraid of being replaced with "but you have to trust yourself" with "but I see so much AI slop everywhere" with "but I also see such great engineers that I look up to using it in such a wonderful way" (one of them being [Fabio Akita](https://github.com/akitaonrails)).
 
 I was divided. I was afraid. I was confused. I was scared. I was excited. I felt betrayed. I felt worthless. I felt hopeless. I felt incredible. All of those things at the same time. 
-
 > Everything. Everywhere. All at once.
 
 Then I started becoming more critic of what I was consuming. I started to reflect more. I started to consume ideas also from people that I didn't agree with at the time. I started seeing the changes in some people that were like me. I started to see good and strong projects made with AI, not only the sloppy ones.
@@ -68,11 +67,7 @@ Absolutely, although I tend to do that for the things that I really want to lear
 
 I still code by hand, but it's been harder...much harder than before. It takes time for the brain to get used to the "slowness" of how artisanal code is built.
 
-## How I use AI
-
-I use mostly [Claude Code](https://claude.com/product/claude-code) in the CLI as a coding agent, [codex](https://openai.com/codex/) as adversarial reviewer and a mix of [ChatGPT](https://chatgpt.com/) and [Claude Desktop](https://claude.com/download) as Google for things usually either outside of coding or outside of what I'm building at the moment. I also love using [Claude Artifacts](https://claude.ai/artifacts). For me it's the best way of learning new things.
-
-### AI as a coding partner - a "buddy"
+## AI as a coding partner
 
 This is my current workflow on working with AI nowadays. The basic idea is:
 
@@ -110,7 +105,6 @@ In this case it will depend on how little I know.
 If I happen to know enough and I just need more input about something else, I ask promptly:
 
 > _"Hey, I want to build X. For that, making this and this and this seems to be the correct way. Do you see any contradictions/problems on this approach? Why?"_
-
 
 There are times that I might know what I want mostly on a superficial level - maybe it's a complex usecase; maybe I'm still fiddling around. In those occasions, I will use it as a smarter google: 
 
@@ -158,7 +152,7 @@ Sometimes depending either on the size or the complexity of a project, an LLM ca
 
 It's also a good time for you to look at some "empty" tests that are gonna contribute for the bloating of the codebase, simplify things like database migrations and to get to know more about what you're doing and make sure that your assumptions are correct and that you understand what you're doing.
 
-## Skills
+### Skills
 
 Some of my preferred skills at the moment:
 
@@ -171,6 +165,19 @@ Some of my preferred skills at the moment:
 
 > A full list to my claude skills can be found [here](https://github.com/Guilospanck/dotfiles/tree/main/claude/skills).
 
+## AI as a learning partner
+
+By using AI as a coding partner in the way I describe in the previous section makes me learn about lots of different topics along the way, but there are times that I want to learn about something that I'm not actively working on yet.
+
+For a lot of topics it suffices to ask an AI and you will learn about it. For example:
+
+> _"Teach me about secure DNS"_
+
+For the cases that you can't learn about it just with the answer it gave you or you would like to get more deep into it or require more of a "graphic" explanation, artifacts are your best friends. Here's an example should I wanted to re-learn more about the event loop in Javascript:
+
+> _"Generate an artifact to me so I can understand how the Javascript event loop works, with its microtasks and macrotasks, and specific Node queues. Make it so that I can step on a function definition line by line and see graphically what happens internally in the event loop: what is pushed/popped to queues and call stack, when, and a simple explanation of the 'rules' so I can understand and remember it better."_
+
+Claude generated [this artifact](https://claude.ai/artifact/5nuRTLHGr69yWCDUMahj1H) for me, which I found awesome and a great resource to learning. Give artifacts a try for anything you've been wanting to (re)learn. It will surprise you.
 
 ## License
 
