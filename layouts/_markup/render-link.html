@@ -1,0 +1,8 @@
+{{- /* Open external links and links to images in a new tab; keep anchors and internal pages in the same one. */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $isImage := findRE `(?i)\.(png|jpe?g|gif|webp|svg|avif)$` $u.Path -}}
+<a href="{{ .Destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{ end -}}
+  {{- if or $u.IsAbs $isImage }} target="_blank" rel="noopener noreferrer"{{ end -}}
+>{{ .Text }}</a>
+{{- /* chomp trailing newline */ -}}
