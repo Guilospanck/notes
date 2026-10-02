@@ -1,7 +1,7 @@
 +++
 title = "An engineer's mental journey through the AI era"
 date = "2026-09-30T18:01:37+01:00"
-draft = true
+draft = false
 tags = ["ai", "burnout"]
 categories = ["mental-dump", "ai"]
 javascript = false
