@@ -146,7 +146,30 @@ LLMs are statistical machines, you can never blindly trust them 100%. The good t
 
 That's both good and bad. The bad is the trusting issues. The good is that you can use that to make them ["fight each other"](./mj_laugh.png) and then you have different points of view and can, therefore, make a better decision (allegedly).
 
+The way by which I do that is by using the `/consult` skill (see more at [skills](#skills)), like `/consult-llm -m gpt-6.1-sol`. It will send the needed context to another model (gpt-6.1-sol in this case) and, with [this hook](https://github.com/Guilospanck/dotfiles/blob/main/claude/hooks/consult-llm-monitor.sh), it will also open to the side a monitor showing exactly what it is doing (otherwise you only see the final answer and not the exact process).
 
+I've gotten many good reviews using this approach, but you still need to be in the loop and decide on whatever it says because LLM models tend to just spill out anything even when there is nothing to do.
+
+### Manual code review
+
+The last step of my workflow pipeline is to look at the final code by myself. I'm starting to do that less and less, given that the models and outcomes are getting better and better, but it is still needed for most of the real applications.
+
+Sometimes depending either on the size or the complexity of a project, an LLM can get lost and generate things that either don't make sense, are totally wrong or are very uneffective.
+
+It's also a good time for you to look at some "empty" tests that are gonna contribute for the bloating of the codebase, simplify things like database migrations and to get to know more about what you're doing and make sure that your assumptions are correct and that you understand what you're doing.
+
+## Skills
+
+Some of my preferred skills at the moment:
+
+- [superpowers](https://github.com/obra/superpowers): _"complete software development methodology"_
+- [consult-llm](https://github.com/raine/consult-llm): _"get a second opinion from another AI model"_
+- [caveman](https://github.com/juliusbrussee/caveman): _"cuts 65% of tokens by talking like a caveman"_
+- [bro](https://github.com/Guilospanck/dotfiles/tree/main/claude/skills/bro): _simplifies the previous answer in a more human way_
+- [workmux](https://github.com/raine/workmux#manual-setup): _teaches the AI how to use [workmux](https://github.com/raine/workmux), which is a "git worktrees + tmux windows for zero-friction parallel dev"_
+- [pre-pr](https://github.com/Guilospanck/dotfiles/blob/main/claude/skills/pre-pr/SKILL.md): _my custom skill to run before you're ready to open a pull request_
+
+> A full list to my claude skills can be found [here](https://github.com/Guilospanck/dotfiles/tree/main/claude/skills).
 
 
 ## License
