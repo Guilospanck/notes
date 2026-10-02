@@ -1,183 +1,105 @@
 +++
-title = "AI Buddy"
+title = "An engineer mental journey through the AI era"
 date = "2026-09-30T18:01:37+01:00"
 draft = true
-tags = ["ai", "agents"]
-categories = []
+tags = ["ai", "burnout"]
+categories = ["mental-dump", "ai"]
 javascript = false
 math = false
 mermaid = false
 +++
 
-As many of you are, I've always been super into programming, since the first time I typed `algoritmo "ola-mundo"` - and yes, my first contact with programming was with [Portugol](https://pt.wikipedia.org/wiki/Portugol), a structured pseudocode language in which you can code in portuguese.
+As it is the case with many of you reading, I've always been into programming, since the first time I typed `algoritmo "ola-mundo"` - and yes, my first contact with programming was with [Portugol](https://pt.wikipedia.org/wiki/Portugol), a structured pseudocode language in which you can code in portuguese.
 
-It was instant love, love at first sight. I still remember the feeling of amazement, magic, excitement. I couldn't stop just learning more and more about it. I would go home and just want to keep doing it. It just felt right.
+It love at first sight. I still remember the feeling of amazement, magic, excitement. I couldn't stop learning more and more about it. I would go home and I'd just want to keep doing it. It just felt right.
 
 And that has been my feeling for the +12y since it happened and +8y working with it professionally.
 
 Then came AI.
 
-## The start
+## The road so far
 
-When the concept of AI first appeared as ChatGPT around ending of 2022, I didn't give much importance to it. Even circa 2023/2024 (GPT 4/4o) I still didn't. Not only I didn't, but I was firmly against using it for anything programming/coding-wise. Not even helping formatting or editing JSONs files. No autocomplete besides the intellisense that "comes" with my text editor (nvim, btw).
+{{< figure src="the-road-so-far.jpg#center" alt="it reads 'the road so far' in a Supernatural way" title="If you know you know" width="800" >}}
 
-The thought of something coding for me, getting in my way, robbing me of my supply of happiness/sadness/excitement/dreadfulness rollercoaster was unthinkable. I could not. Never. Not only that, I would internally look at people relying on those tools as "less" - or perhaps "not a true engineer".
+When the concept of AI first appeared as ChatGPT around ending of 2022, I didn't give much importance to it. Even circa 2023/2024 (GPT 4/4o) I still didn't. Not only didn't I do it, but I was firmly against using it for anything programming/coding-wise.
+
+I wouldn't even accept help of it to format or edit JSON files, and much less AI autocomplete. The intellisense of my editor - _nvim btw_ - was more than enough.
+
+I loved the typing aspect of it. I study by writing things down, I remember and learn better when I do it, why would it be different with programming and keyboards?
+
+The thought of something coding for me, getting in my way, robbing me of my supply of _"happiness/sadness/excitement/dreadfulness rollercoaster"_ was unthinkable.
+
+I could not. Never.
+
+Not only that, I would internally look at people relying on those tools as "less" - or perhaps "not true engineers".
 
 This feeling stayed with me until very recently (~2 to 3 months ago).
 
-## What changed
+### Backstory
 
-As everyone in the field (and other fields as well) noticed, things really started changing and gaining traction late November/2025 (the infamous [Claude Opus 4.5 release](https://www.anthropic.com/news/claude-opus-4-5)). From that moment on, everything went up(down)hill.
+Somewhere last year (2025) I was in a burnout phase: it wasn't a happy place to be. Things that I really liked it, really loved it, I couldn't find the amazement anymore. It was dragging, cumbersome, heavy.
 
-Somewhere last year (2025) I was in a burnout phase: it wasn't a happy place to be. Things that I really liked it, really loved it, I couldn't find the amazement anymore. It was dragging. It look me around 6-8 months to try and get back to be close to how things were before.
+Looking at a screen full of code or even just discussing tech was painful, not interesting at all. It felt like someone had robbed me of my purpose in life. I was trying to be as further away as I could from anything tech/programming related - imagine how hard that was being a Software Engineer. It took me around 6-8 months to get back to be even close to how things were before.
 
 Then the November AI wave hit.
 
-Once again my motivation and future perspectives started dropping more and more for every and each news of how AI would make everything obsolete. _"What's the point of learning anything nowadays?"_ - this is what would cross my mind everyday, almost the whole day.
+As everyone in the tech field (and other fields as well) noticed, things really started changing and gaining traction late November/2025 (the infamous [Claude Opus 4.5 release day](https://www.anthropic.com/news/claude-opus-4-5)). From that moment on, everything went up(down)hill.
 
-I'd try to talk to people and see how they were feeling about it. I was able to talk to people that felt different things: some really LOVED IT and were SUPER EXCITED about everything; others were DREADING the new tech as I was. I felt hopeless. I felt confused. I felt boxed.
+Once again my motivation and future perspectives started dropping more and more for every and each news of how AI would make everything obsolete. _"What's the point of learning anything nowadays?"_ - this is what would cross my mind everyday, all the time.
+
+I'd try to talk to people and see how they were feeling about it. It was interesting to see the range of feelings on different persons: some really LOVED IT and were SUPER EXCITED about everything; others were DREADING the new tech as I was.
+
+I felt hopeless. I felt confused. I felt boxed.
 
 There were so many voices inside my head:
 
-> _"Am I just being a 'old-man-yelling-at-clouds'?"_
+> _"Am I just being a 'old-man-yelling-at-clouds'?"_ - or one can say ["an old man yelling at claude"](./old-man-yells-at-claude.png)
 
 > _"Am I just afraid of losing my job, or is it because I'm holding onto the effort that I've put my whole professional life and that now it seems it's being taken from me at a rapid pace?"_
 
-> _"Am I correct to feel this way? Should I be thinking the other way? Should I be seeing things 'cup half-filled'?"_
+> _"Am I correct to feel this way? Should I be thinking the other way? Should I be seeing things 'full cup' instead of 'half-empty'?"_
 
 > _"No, I'm correct. This is slop machine. People are delusional. I'm on the right side."_
 
-> _"Am I just being the guy that still held onto its horse and negated cars?"_
+> _"Am I just being like the guy that held onto its horse and abominated cars and was left behind?"_
 
-The list kept going on and on. It seemed that it had no end to it and I couldn't even reach the bottom to then understand and make an argument, think of a good answer, make a decision.
-
-The more I didn't want to be in pair with this new technology, I was afraid of being left behind so I would from time to time use it a bit for some random things, or do a feature by hand and then see how AI would implement it, but still I was super against it (_as you can see in [this comment](https://github.com/Guilospanck/pqc/pull/8) from one AI generated PR for a feature in one of my repos_). Even though I could see the use of it - and how many times it could be better than me - I would still despise it. It was a mix of being afraid of being replaced with "but you have to trust yourself" with "but I see so much AI slop everywhere" with "but I also see such great engineers that I look up to using it in such a wonderful way" (one of them being [Fabio Akita](https://github.com/akitaonrails)).
+The list kept going on and on. It seemed that it had no end to it. My hope to reach the bottom of it and find a solution was fading away with each day.
 
 I was divided. I was afraid. I was confused. I was scared. I was excited. I felt betrayed. I felt worthless. I felt hopeless. I felt incredible. All of those things at the same time. 
 > Everything. Everywhere. All at once.
 
-Then I started becoming more critic of what I was consuming. I started to reflect more. I started to consume ideas also from people that I didn't agree with at the time. I started seeing the changes in some people that were like me. I started to see good and strong projects made with AI, not only the sloppy ones.
+### What changed
 
-Then I started using AI more and more, but all the while being careful on the way I was using it. I didn't want to use it just as a "fix this, make no mistakes" (although sometimes I do), but as a powerful coding/documentation/architect on steroids.
+Even though inside of me I was fighting to not have anything to do with this new technology, I was afraid of being left behind.
 
-Slowly starting to get to know how AI code is written, the trade-offs, the paths that some models will mostly always take, adding better guardrails, dabbing with different skills, using more than one model (adversarial reviews) and of course the natural evolution of each model (which looks like a brand new JS framework every week, the difference is that these are usually good).
+From time to time I'd use it a bit for some random things, or do a feature by hand and then see how AI would implement it, and I could see the use of it - and how many times it could be better than me - but I'd still despise it; I'd still be super against it (_as you can see in [this comment](https://github.com/Guilospanck/pqc/pull/8) from one AI generated PR for a feature in one of my repos_).
+
+It was a mix of being afraid of being replaced with _"but you have to trust yourself"_ and _"but I see so much AI slop everywhere"_ and _"but I also see such great engineers that I look up to using it in such a wonderful way"_
+
+Then I started to become more critical of what I was consuming. I started to reflect more. I started to also consume ideas from people that I didn't agree with at the time. I started seeing the changes in some people that were like me. I started to see good and strong projects made with AI, not only the sloppy ones. I started seeing people that I admired talking positively about it (one of them being [Fabio Akita](https://github.com/akitaonrails)).
+
+Therefore I started using AI more and more, all the while being careful with the way I was using it. I didn't want to use it just as a "fix this, make no mistakes" (although sometimes I do/did), but as a powerful coding/documentation/architect/search tool.
+
+Slowly starting to get to know how AI code is written, the trade-offs, the paths that some models would mostly always take, adding better guardrails, dabbing with different skills, using more than one model (adversarial reviews) and of course the natural evolution and improvement of each model (which looks like a brand new JS framework every week, the difference being that these are usually good and useful), made me want and like to use more and more of it.
+
+I got attached to being the "software engineer that codes", instead of the one that provides a solution. I got attached to what I do at a profound level and when AI "took that outta me", I felt attacked. _How dare you do that to me?_ I chose to take the "black pill" instead of the white one (reference [here](https://youtu.be/vDjW_dRyKXY?t=3748)).
+
+We as humans tend to do that. We attach ourselves to ideologies. We box ourselves. We label ourselves.
+
+> "Any label that you put on yourself or that's put on you, makes you smaller."
+> -- [Rick Rubin](https://youtu.be/a_GiFiHXJ6g?t=534)
+
+## Final thoughts
 
 So... do I still code by hand?
-Absolutely, although I tend to do that for the things that I really want to learn and usually on my hobby projects, where I have don't have any of the cons of professional environment, like pressure and timelines.
 
-I still code by hand, but it's been harder...much harder than before. It takes time for the brain to get used to the "slowness" of how artisanal code is built.
+Absolutely, although I tend to do that for the things that I really want to learn and also usually with my hobby projects (like implementing the newest version of the [MCP protocol in the odin language](https://github.com/Guilospanck/mcp-odin)), where I don't have any of the negative sides of a professional environment, like pressure and timelines.
 
-## AI as a coding partner
+I still code by hand, but it has become harder...much harder than before. It takes time for the brain to get used to the "slowness" of how artisanal code is built.
 
-This is my current workflow on working with AI nowadays. The basic idea is:
+But that's normal. The brain likes efficiency and it likes saving energy, and it sees this new (old) manual coding environment as one that's gonna be less efficient and spend more energy than the one it got used to with AI coding agents.
 
-1. Get AI to do something via [prompting](#prompting);
-2. [Manually test](#manual-testing) it to make sure that we will spend time on at least a working feature;
-3. Run the [automated tests](#automated-tests);
-4. Run an [adversarial review](#adversarial-review);
-5. If something meaningful was found, ask it to fix it and basically run from step 1 again. If it's either a false positives or something that I deen not necessary to do it now, then proceed;
-6. [Check manually](#manual-code-review) most of the code that was generated. If not happy, go back starting from step 1 again. If happy, then wait for the PR process.
-
-> 👉 Steps 2 and 3 don't necessarily need to follow this order. You could choose to run 3 before 2.
-
-Each and every one of the steps above only move forwards if they succeed in whatever metric I judge necessary.
-
-Notice that every and each time some part of the code has changed, you need to re-test it again to make sure that you're not validating it with past assumptions. Remember that even the simplest changes can break everything.
-
-This is the way I've found to produce code at high speeds all the while keeping it as close as possible to working software and improving my understanding of whatever is happening.
-
-### Prompting
-
-There are two ways that I prompt AI to do something and it depends on my level of understanding of what I want:
-
-#### I know exactly what I want
-
-If that happens to be the case, then it's pretty much straightforward. Just prompt it what I want and that's it:
-
-> _"I want section X to have abc and section Y to be like this"_.
-
-For simpler tasks this is usually the case, but for more complex tasks, there's the next topic.
-
-#### I don't know _exactly_ what I want
-
-In this case it will depend on how little I know. 
-
-If I happen to know enough and I just need more input about something else, I ask promptly:
-
-> _"Hey, I want to build X. For that, making this and this and this seems to be the correct way. Do you see any contradictions/problems on this approach? Why?"_
-
-There are times that I might know what I want mostly on a superficial level - maybe it's a complex usecase; maybe I'm still fiddling around. In those occasions, I will use it as a smarter google: 
-
-> _"I want to build system **"X"**. It needs to have this and this and this. I'm not sure still what I'll be using and what's the best way to build it. I want it to have configuration **"Y"**", security **"Z"**, work **"W"** way, and I'm okay with not being perfect on **"V"**. Do a deep research and give me my options for each one of them with their pros and cons, and which ones are your recommendations and why"_.
-
-After the AI does that, I will go through a long planning process (depending on how big the system is can take days), in which we will design the system together from ground up, freeing any roadblocks along the way that could block us in the future.
-
-Although it might seem slower in the beginning, once you have a detailed plan of every part of the system, the actual implementation will be very fast and mostly autonomous (given you gave AI the correct guardrails for each one of the systems/features).
-
-### Manual testing
-
-This is straightforward most of the times. If you're building a system, you usually know how it's supposed to work. The idea here is to use it as if you were a user. See if it fits your expectations of the system/feature.
-
-If it's a web app and you're building a form to save user's information, then you just go there manually to the web form, fill in some information and see if it saves correctly. You become your QA - as you should've always been.
-
-Using this as the first line of "defense against very dumb errors" is pretty good because it can also lead you to have more input on the next phases and you feel what a possible user would feel if that happens to not work the way we would expect it to work.
-
-### Automated tests
-
-Here lies your unit, integration and e2e tests. But also, your linting, formatting, typechecks.
-
-Even more: I like to have here also the same environment as my CI process would run, including a differentiation - if needed - of the steps that are REQUIRED to pass so we can merge the branch and the ones that are OPTIONAL.
-
-Waiting for a CI to run on the cloud (I mean GitHub/Forgejo/Gitlab actions) is usually MUCH slower than what you could have by running them locally first.
-
-The idea is that, instead of waiting for that long time once you think everything is ready and then finding out that some REQUIRED step hasn't passed and you can't merge it [🤬](./frustrated-jim-carrey.gif), you do it faster locally and push an already good-to-go PR code.
-
-That saves cloud computing, but most importantly: saves your headspace.
-
-### Adversarial review
-
-LLMs are statistical machines, you can never blindly trust them 100%. The good thing is that - allegedly - different models were trained differently, and that leads to different outcomes to same questions. 
-
-That's both good and bad. The bad is the trusting issues. The good is that you can use that to make them ["fight each other"](./mj_laugh.png) and then you have different points of view and can, therefore, make a better decision (allegedly).
-
-The way by which I do that is by using the `/consult` skill (see more at [skills](#skills)), like `/consult-llm -m gpt-6.1-sol`. It will send the needed context to another model (gpt-6.1-sol in this case) and, with [this hook](https://github.com/Guilospanck/dotfiles/blob/main/claude/hooks/consult-llm-monitor.sh), it will also open to the side a monitor showing exactly what it is doing (otherwise you only see the final answer and not the exact process).
-
-I've gotten many good reviews using this approach, but you still need to be in the loop and decide on whatever it says because LLM models tend to just spill out anything even when there is nothing to do.
-
-### Manual code review
-
-The last step of my workflow pipeline is to look at the final code by myself. I'm starting to do that less and less, given that the models and outcomes are getting better and better, but it is still needed for most of the real applications.
-
-Sometimes depending either on the size or the complexity of a project, an LLM can get lost and generate things that either don't make sense, are totally wrong or are very uneffective.
-
-It's also a good time for you to look at some "empty" tests that are gonna contribute for the bloating of the codebase, simplify things like database migrations and to get to know more about what you're doing and make sure that your assumptions are correct and that you understand what you're doing.
-
-### Skills
-
-Some of my preferred skills at the moment:
-
-- [superpowers](https://github.com/obra/superpowers): _"complete software development methodology"_
-- [consult-llm](https://github.com/raine/consult-llm): _"get a second opinion from another AI model"_
-- [caveman](https://github.com/juliusbrussee/caveman): _"cuts 65% of tokens by talking like a caveman"_
-- [bro](https://github.com/Guilospanck/dotfiles/tree/main/claude/skills/bro): _simplifies the previous answer in a more human way_
-- [workmux](https://github.com/raine/workmux#manual-setup): _teaches the AI how to use [workmux](https://github.com/raine/workmux), which is a "git worktrees + tmux windows for zero-friction parallel dev"_
-- [pre-pr](https://github.com/Guilospanck/dotfiles/blob/main/claude/skills/pre-pr/SKILL.md): _my custom skill to run before you're ready to open a pull request_
-
-> A full list to my claude skills can be found [here](https://github.com/Guilospanck/dotfiles/tree/main/claude/skills).
-
-## AI as a learning partner
-
-By using AI as a coding partner in the way I describe in the previous section makes me learn about lots of different topics along the way, but there are times that I want to learn about something that I'm not actively working on yet.
-
-For a lot of topics it suffices to ask an AI and you will learn about it. For example:
-
-> _"Teach me about secure DNS"_
-
-For the cases that you can't learn about it just with the answer it gave you or you would like to get more deep into it or require more of a "graphic" explanation, artifacts are your best friends. Here's an example should I wanted to re-learn more about the event loop in Javascript:
-
-> _"Generate an artifact to me so I can understand how the Javascript event loop works, with its microtasks and macrotasks, and specific Node queues. Make it so that I can step on a function definition line by line and see graphically what happens internally in the event loop: what is pushed/popped to queues and call stack, when, and a simple explanation of the 'rules' so I can understand and remember it better."_
-
-Claude generated [this artifact](https://claude.ai/artifact/5nuRTLHGr69yWCDUMahj1H) for me, which I found awesome and a great resource to learning. Give artifacts a try for anything you've been wanting to (re)learn. It will surprise you.
+You gotta just get past that and see it as part of the "acclimation process" and, if you have the freedom to do it, just treat it as a hobby and "me-time". You do it because it's fun.
 
 ## License
 
